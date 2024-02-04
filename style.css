@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1rem;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    z-index: 100;
+}
+.navbar a{
+    background-color: transparent;
+    color: #282c3f;
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+.navbar a:hover{
+    border-bottom: 3px solid #ee5f73;
+}
+.myntra-logo{
+    position: relative;
+    height: 40px;
+    top: 5px;
+}
+.search{
+    width: 32%;
+    position: absolute;
+    right: 220px;
+    top: 20px;
+    line-height: 0;
+}
+.search > input.search-box{
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: rgb(245, 245, 245);
+    color: #696e79;
+    border: 1px solid #f5f5f6;
+    box-sizing: content-box;
+    padding: 8px 10px 10px ;
+    border-left: 0;
+    outline: 0;
+    width: 95%;
+}
+
+
+div.search-icon{
+    box-sizing: content-box;
+    display: inline-block;
+    text-align: center;
+    padding: 13px 0px 1px;
+    background-color: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    height: 28px;
+    width: 40px;
+    border-right: none;
+    position: absolute;
+    left: -41px;
+    /* color: #282c3f; */
+}
+
+input.search-box:focus, input.search-box:focus+div.search-icon{
+    background-color: #fff;
+    border-color: #eaeaec;
+}
+.profile{
+    display: flex;
+    position: absolute;
+    right: 60px;
+}
+
+.hidden{
+    display: hidden;
+    height: 80px;
+    width: 100%;
+}
+
+.sidebar{
+    display: flex;
+    position: fixed;
+    background-color: #535766;
+    right: 0;
+    bottom: 100px;
+    height: 180px;
+    width: 40px;
+    z-index: 10;
+}
+.content{
+    writing-mode: vertical-rl;
+    font-size: large;
+    font-weight: bold;
+    background-color: transparent;
+    transform: rotate(180deg);
+    margin: auto;
+    color: white;
+}
+.top-banner{
+    width: 100%;
+}
+
+.banner{
+    display: flex;
+}
+.left-img{
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.right-img{
+    width: 100%;
+}
+.coupon-banner{
+    width: 49%;
+}
+
+.deals-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.deals{
+    width: 16vw;
+}
+.categories{
+    width: 13vw;
+    margin: 1vw;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(245, 245, 245);
+}
